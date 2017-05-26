@@ -1,9 +1,0 @@
-version: "3"
-build:
-  stage: build
-  job_type: image_build
-  only:
-    tags:
-    - .*
-  dockerfile_path: /Dockerfile
-  build_dir: /
