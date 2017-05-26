@@ -1,4 +1,5 @@
 FROM alpine
+MAINTAINER Zhangwin <zhangwin@gmail.com>
 RUN apk update && apk upgrade
 RUN apk add nginx
 ADD proser.tar.gz /app/proser.tar.gz
