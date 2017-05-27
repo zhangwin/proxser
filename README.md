@@ -1,1 +1,2 @@
 # proxser
+nginx proxy
