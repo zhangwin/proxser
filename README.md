@@ -1,2 +1,3 @@
 # proxser
 nginx proxy ...........
+gzip
