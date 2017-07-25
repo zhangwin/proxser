@@ -2,7 +2,7 @@ FROM alpine
 MAINTAINER Zhangwin <zhangwin@gmail.com>
 RUN apk update && apk upgrade
 RUN apk add nginx
-ADD http://69.197.179.19/proser170716.tar.gz /app/proser.tar.gz
+ADD http://69.197.179.19/proser170725.tar.gz /app/proser.tar.gz
 ADD start.sh /app/start.sh
 ADD nginx.conf /etc/nginx/nginx.conf
 WORKDIR /app
